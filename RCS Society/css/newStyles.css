@@ -1,0 +1,554 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mySCLftBannerNav {
+	background: url(../images/pencilImgr.png) no-repeat;
+}
+.mySClowerBan {
+	background: url(../images/abacus.png) no-repeat;
+}
+.pricImgDisp {
+	background: url(../images/prinicipalImg.jpg) no-repeat;
+}
+.descPtCul,.feeStr {
+	margin:0 auto;
+	max-width:1014px;
+	padding-left:40px;
+}
+.feeStr{
+	max-width:1000px;
+}
+.descPtCul{
+	height:70px;
+}
+.descPtCulCntUs, .descPtCulFdbck, .descPtCulActivity {
+	height: 300px;
+	overflow: hidden;
+	float: left;
+	width: 1014px;
+	padding-left: 140px;
+}
+.descPtCulCntUs {
+	height: 390px;
+	width: 1154px;
+	padding: 10px 0px 0px 0px;
+}
+.descPtCulFdbck {
+	height: 570px;
+	padding: 0px;
+	width: 1156px;
+}
+.descPtCulActivity {
+	height: 570px;
+	padding: 0px;
+	width: 1156px;
+}
+.feeStructTitle {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+	height: 38px;
+	width: 1150px;
+	color: #fff;
+	background-color: #464646;
+	overflow: hidden;
+	border-bottom: 2px solid #ffcc33;
+}
+table {
+	border: #d45420;
+}
+
+.listOfStr {
+	background: #464646;
+	height: 266px;
+	float: left;
+	width: 1150px;
+	overflow: hidden;
+}
+.admOpnBan {
+	background: #fff;
+	height: 110px;
+	float: left;
+	margin-top: 4px;
+	width: 1148px;
+	border: 1px dotted #464646;
+}
+.imgAdOpBan {
+	background: url(../images/admission-open.gif) no-repeat;
+	height: 110px;
+	float: left;
+	width: 240px;
+}
+.admOpnqut {
+	height: 50px;
+	float: left;
+	width: 893px;
+	overflow: hidden;
+	padding: 60px 0px 0px 15px;
+	color: #d45420;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Cabin Sketch', cursive;
+}
+.cntUsImgNav, .cntMidUsImgNav, .cntRighUsImgNav, .cntUsImgNavDv {
+	height: 380px;
+	width: 400px;
+	font-size: 16px;
+	font-weight: 400;
+	float: left;
+}
+.cntUsImgNavDv {
+	padding-top: 56px;
+	height: 324px;
+}
+.cntMidUsImgNav {
+	width: 368px;
+	height: 358px;
+	padding: 10px;
+	margin: 0px 10px 0px 10px;
+	border: 1px dotted #ffcc33;
+	background: url(../images/gMapkishanganj.jpg) no-repeat;
+}
+.cntRighUsImgNav {
+	width: 330px;
+}
+.cntUsPart {
+	height: auto;
+	width: 250px;
+	float: left;
+	color: #fff;
+	margin-bottom: 6px;
+}
+.mailInfo, .cntImg, .addImg, .webImg {
+	height: 21px;
+	width: 32px;
+	float: left;
+	margin: 4px 0px 0px 3px;
+	background: url(../images/mail59.png) no-repeat;
+}
+.mailCont, .cntCont {
+	height: 25px;
+	width: 215px;
+	float: left;
+}
+.cntImg {
+	background: url(../images/phone.png) no-repeat;
+}
+.addImg {
+	height: 61px;
+	background: url(../images/AddressIcon.png) no-repeat;
+}
+.webImg {
+	background: url(../images/web.png) no-repeat;
+}
+.addCont {
+	height: 65px;
+	width: 215px;
+	float: left;
+}
+.rcsLogo {
+	height: 40px;
+	width: 53px;
+	float: left;
+	background: url(../images/rfootercsLogo.png) no-repeat;
+}
+.rcsCont {
+	height: 30px;
+	width: 192px;
+	float: left;
+	padding: 10px 0px 0px 5px;
+}
+.admissionCnt {
+	background: url(../images/admission-openBa.jpg) no-repeat;
+	height: 160px;
+	width: 330px;
+	float: left;
+}
+.subsCont {
+	background: url(../images/sustainable.jpg) no-repeat;
+	height: 211px;
+	margin-top: 10px;
+	width: 330px;
+	float: left;
+}
+.subNav {
+	background: #464646;
+	color: #fff;
+	text-align: justify;
+	font-size: 16px;
+	overflow: hidden;
+	font-family: 'Cabin Sketch', cursive;
+	padding: 44px 10px 10px 10px;
+	height: 157px;
+	opacity: 0.8;
+	width: 310px;
+	float: left;
+	visibility: hidden;
+}
+.addWebSite {
+	height: 238px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 368px;
+	float: left;
+	background-color: #464646;
+	color: #ffcc33;
+	border: 1px solid #ffcc33;
+}
+.addWebSiteTitle {
+	height: 40px;
+	width: 370px;
+	float: left;
+	font-size: 20px;
+	font-family: 'Cabin Sketch', cursive;
+	border-bottom: 1px dotted #d45420;
+}
+.titleWbSit {
+	height: 30px;
+	width: 370px;
+	float: left;
+	font-size: 18px;
+}
+.addPartAcon {
+	height: 160px;
+	width: 370px;
+	float: left;
+}
+.leftcntbdyMidUp {
+	width: 460px;
+	height: 500px;
+	float: left;
+	padding: 20px;
+	margin-right: 30px;
+	color: #d45420;
+	background-color: #f9f9f9;
+	border: dashed 1px #cccccc;
+}
+.contactTitle {
+	text-align: left;
+	font-size: 20px;
+	color: #d45420;
+	text-shadow: none;
+	width: 460px;
+	font-family: 'Cabin Sketch', cursive;
+}
+.inputTypesForm, .mapTypesForm {
+	height: 300px;
+	width: 450px;
+	float: left;
+	margin-top: 10px;
+}
+.mapTypesForm {
+	height: 270px;
+	width: 470px;
+	background-color: #33C;
+}
+.titleCntFrm, .msginputCntFrm, .btninputCntFrm, .titleAdmissionFrm {
+	text-align: left;
+	font-size: 16px;
+	width: 460px;
+	height: 30px;
+	float: left;
+}
+.titleAdmissionFrm {
+	color: #d45420;
+}
+.msginputCntFrm {
+	height: 150px;
+}
+.btninputCntFrm {
+	height: 40px;
+	margin-top: 10px;
+}
+.inputCntFrm {
+	text-align: left;
+	font-size: 14px;
+	width: 460px;
+	height: 50px;
+	float: left;
+}
+.inpStyl {
+	background-color: #f9f9f9;
+	border: solid 1px #CCCCCC;
+	display: block;
+	cursor: pointer;
+	vertical-align: top;
+}
+.netypeDes {
+	border-radius: 5px;
+	height: 30px;
+	width: 350px;
+}
+.messageArea {
+	resize: none;
+	width: 410px;
+	height: 140px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	border: solid 1px #f9f9f9;
+	cursor: pointer;
+	vertical-align: top;
+	background-color: #f9f9f9;
+	border: solid 1px #CCCCCC;
+}
+.btnStylCnt, .registerStyle {
+	resize: none;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 13px;
+	border: solid 1px #f9f9f9;
+	cursor: pointer;
+	vertical-align: top;
+	background-color: #e6e4e4;
+	border: solid 1px #CCCCCC;
+}
+.spcFeebackFrmNav, .midFeedbackNav {
+	height: 560px;
+	margin-left: 60px;
+	width: 460px;
+	padding: 8px 0px 0px 20px;
+	float: left;
+}
+.midFeedbackNav {
+	width: 520px;
+}
+.midMarqueNew {
+	height: 372px;
+	width: 292px;
+	float: left;
+	padding: 14px;
+	border: solid 4px #d45420;
+	margin-top: 60px;
+	background-color: #464646;
+}
+.newEventTitle {
+	height: 40px;
+	width: 292px;
+	float: left;
+	padding-top: 10px;
+	font-size: 18px;
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+	background-color: #ffcc33;
+	border: 2px #d45420 dotted;
+}
+.marqSty {
+	text-align: justify;
+	font-size: 14px;
+	color: #ffcc33;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.rightBdyActNav {
+	height: 580px;
+	width: 256px;
+	margin-left: 20px;
+	float: left;
+}
+.upRghBdyNav, .midRghBdyNav, .dwnRghBdyNav {
+	height: 190px;
+	width: 256px;
+	background: url(../images/ActImg1.jpg) no-repeat;
+	margin-bottom: 10px;
+	float: left;
+}
+.midRghBdyNav {
+	background: url(../images/ActImg3.jpg) no-repeat;
+}
+.dwnRghBdyNav {
+	height: 170px;
+	background: url(../images/ActImg2.jpg) no-repeat;
+}
+#actSp {
+	height: 278px;
+	width: 494px;
+	border: none;
+	resize: none;
+	color: #d45420;
+}
+#unametxt, #pwdtxt {
+	height: 25px;
+	width: 284px;
+}
+.pstCmtNav {
+	height: 580px;
+	width: 880px;
+	float: left;
+}
+.pstNwNav {
+	height: 320px;
+	width: 840px;
+	margin: 20px 20px 10px 20px;
+	float: left;
+}
+.pstCont {
+	height: 320px;
+	width: 500px;
+	margin-right: 20px;
+	float: left;
+}
+.textArNav {
+	height: 278px;
+	width: 498px;
+	margin-right: 20px;
+	float: left;
+	border: solid 1px #d45420;
+}
+.upldImgNav {
+	height: 38px;
+	width: 498px;
+	margin-right: 20px;
+	float: left;
+	border: solid 1px #d45420;
+	background-color: #464646;
+}
+.upldVideo, .upldImg, .upldAttachemnt, .upldLoc {
+	height: 28px;
+	width: 29px;
+	margin: 5px 0px 0px 10px;
+	background: url(../images/uploadVideo.png) no-repeat;
+	float: left;
+}
+.upldImg {
+	background: url(../images/uploadImg.png) no-repeat;
+}
+.upldAttachemnt {
+ background:url../(images/attachmen.png) no-repeat;
+}
+.upldLoc {
+	background: url(../images/googleMap.png) no-repeat;
+}
+.midSpc, .btnStyNav {
+	height: 28px;
+	width: 222px;
+	margin: 5px 0px 0px 10px;
+	float: left;
+}
+.btnStyNav {
+	width: 100px;
+}
+.membLogSec {
+	height: 268px;
+	width: 296px;
+	float: left;
+	padding: 40px 12px 12px 12px;
+	background-color: #464646;
+}
+.membLogTitle {
+	height: 40px;
+	width: 296px;
+	float: left;
+	margin: 26px 0px 10px 0px;
+	font-size: 24px;
+	font-family: 'Cabin Sketch', cursive;
+}
+.memLogZone {
+	height: 140px;
+	width: 296px;
+	float: left;
+	font-size: 24px;
+	font-family: 'Cabin Sketch', cursive;
+}
+.pstContNav {
+	height: 170px;
+	width: 840px;
+	margin: 20px 20px 10px 20px;
+	float: left;
+	background-color: #464646;
+}
+.picBlanknav {
+	height: 196px;
+	width: 182px;
+	float: left;
+	border: solid 2px #d45420;
+	font-size: 14px;
+	text-align: center;
+	background: url(../images/PrfylPic.jpg) no-repeat;
+}
+.picUploadNav{
+	height:240px; width:186px; float:left;
+}
+.picUploadBtn
+{
+	height:34px; padding:6px 0px 0px 4px; width:184px; float:left;
+}
+.txtStylDef{
+	font-family: 'Cabin Sketch', cursive; font-size:15px;color:#d45420;}
+.mainFrom{
+	height:720px; width:1156px; float:left;
+}
+.leftmainFrmNav, .midmainFrmNav, .rightmainFrmNav{
+	height:1420px; width:285px; float:left;
+}
+.midmainFrmNav{
+	width:569px;background-color:#fff; height:1410px; padding:5px 5px 0px 9px; border-radius:10px 10px 10px; border: 1px dashed #d45420;
+}
+.rightmainFrmNav{
+	width:285px;
+}
+.uperNewDetNav{
+	height:240px; width:570px; float:left; 
+}
+.leftuperNewDetNav{
+	height:240px; width:384px; float:left;
+}
+.titleTxtNav, .inputNewTitle{
+	height:30px; width:384px; float:left; 
+}
+.inputNewTitle{
+	width:570px;
+}
+.inputTypeNav, .inputnewTypeNav{
+	height:40px; width:384px; float:left; 
+}
+.inputnewTypeNav{
+	width:570px;
+}
+.inputStyleType{
+	height:30px; 
+	width:300px;
+}
+
+.registerStyle {
+	height:30px; 
+	width:178px;
+	border-radius:0px;
+	background-color:#d45420;
+	border:1px #ffcc33 solid;
+	color:#fff;	
+}
+.moreDetDwn
+{height:auto; width:570px; float:left;}
+
+.termsCond{
+	height:30px; width:570px; float:left; color:#d45420;
+}
+.declNote{
+	overflow:hidden; height:72px; width:562px; font-size:14px; padding:4px; color:#d45420; text-align:justify; float:left;
+}
+.siteBdyFeedbkCont{
+	margin:0 auto;
+	padding:20px;
+	max-width:1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

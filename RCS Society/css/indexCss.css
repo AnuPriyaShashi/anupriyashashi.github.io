@@ -1,0 +1,695 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	color: #FFF;
+	font-size:12px;
+	padding: 0px;
+	margin: 0px;
+}
+#webContainer {
+	width: 1348px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*----------------------------------menu-------------------*/
+.menu_items {
+	position: relative;
+	margin: 120px 150px 0 70px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1000;
+	background-color: transparent;
+	height: 600px;
+	width: 120px;
+}
+.menu_title, .menu_title a{
+	background-color: #464646;
+	width: 120px;
+	height: 34px;
+	color: #ffcc33;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 8px 8px 0px 0px;
+	border-bottom: thin solid #333;
+}
+.menu_title a{
+	border: none;
+}
+.menu_sub {
+	background-color: #464646;
+	width: 120px;
+	border-bottom: thin solid #333;
+	margin: 0px;
+	padding-top: 20px;
+	height: 34px;
+	text-align: center;
+	font-size: 12px;
+}
+.menu_bottom {
+	background-color: #464646;
+	width: 120px;
+	margin: 0px;
+	height: 40px;
+	text-align: center;
+	font-size: 12px;
+	border: none;
+	text-decoration: none;
+	padding-top: 20px;
+	border-radius: 0px 0px 8px 8px;
+}
+.menu_bottom a {
+	font-weight: 400;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+}
+.menu_sub a {
+	font-weight: 400;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+}
+.menu_sub a:hover {
+	color: #ffcc33;
+	text-decoration: none;
+	font-weight: 800;
+	border-bottom: #ffcc33 solid 3px;
+}
+.menu_socialIcon {
+	background-color: #464646;
+	width: 120px;
+	padding-top: 14px;
+	border-bottom: thin solid #333;
+	height: 40px;
+}
+.leftIconNav {
+	width: 10px;
+	height: 34px;
+	float: left;
+}
+.socialIconNav {
+	width: 34px;
+	height: 34px;
+	float: left;
+}
+.fbNav, .twitNav, .gPlusNav {
+	width: 27px;
+	margin-left: 4px;
+	height: 34px;
+	float: left;
+	background: url(../images/fbIcon.png) no-repeat;
+}
+.twitNav {
+	margin: 0px;
+	background: url(../images/twitterIcon.png) no-repeat;
+}
+.gPlusNav {
+	margin: 0px;
+	background: url(../images/gplIcon.png) no-repeat;
+}
+/*--------------------------------------header----------------------------*/
+.siteHeader, .siteHeaderFeedback {
+	height: auto;
+	width: 1348px;
+	background: url(../images/bg.png) repeat;
+	float: left;
+	position: absoulte;
+}
+
+.siteLogoTitle {
+	height: 108px;
+	width: 1348px;
+	background-color: #494447;
+	float: left;
+}
+.leftHeaderSub {
+	height: 108px;
+	width: 50px;
+	float: left;
+}
+.siteLogo {
+	height: 120px;
+	width: 160px;
+	float: left;
+	background: url(../images/rcsLogo.png) no-repeat;
+}
+.siteTitle {
+	height: 108px;
+	width: 250px;
+	float: left;
+	margin-left: 4px;
+}
+.siteTitleUpper {
+	height: 35px;
+	width: 250px;
+	float: left;
+	float: left;
+}
+.siteTitleMid {
+	height: 43px;
+	width: 250px;
+	float: left;
+	font-size: 24px;
+	color: #ffcc33;
+}
+.siteTitleCase {
+	font-size: 40px;
+}
+.siteTitleLower {
+	height: 30px;
+	width: 250px;
+	float: left;
+	color: #d45420;
+	font-family: 'Cabin Sketch', cursive;
+	overflow: hidden;
+}
+.callUsTxtNav {
+	width: 24px;
+	height: 23px;
+	border-bottom-left-radius: 2px;
+	padding-left: 4px;
+	border-top-left-radius: 2px;
+	margin-top: 9px;
+	background-color: #ffcc33;
+	float: left;
+	border-width: 1px;
+	border-right: solid 1px #aaa;
+}
+.contactNoDi {
+	height: 40px;
+	width: 20px;
+	background: url(../images/phone.png) no-repeat;
+	float: left;
+	margin-top: 4px;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.callMobTxt {
+	width: 114px;
+	height: 19px;
+	font-size: 12px;
+	border-bottom-right-radius: 2px;
+	margin-top: 4px;
+	border-top-right-radius: 2px;
+	margin-top: 9px;
+	background-color: #ffcc33;
+	color: #FFF;
+	float: left;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.caldivUsTxt {
+	width: 24px;
+	height: 23px;
+	display: block;
+	overflow: hidden;
+	border-bottom-left-radius: 2px;
+	padding-left: 4px;
+	border-top-left-radius: 2px;
+	margin-top: 2px;
+	background-color: #ffcc33;
+	float: left;
+	border-width: 1px;
+	border-right: solid 1px #aaa;
+}
+.domainMalId {
+	height: 40px;
+	width: 20px;
+	background: url(../images/mail59.png) no-repeat;
+	float: left;
+	margin-top: 4px;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.domainMalIdTxt {
+	width: 156px;
+	height: 19px;
+	display: block;
+	overflow: hidden;
+	border-bottom-right-radius: 2px;
+	margin-top: 4px;
+	border-top-right-radius: 2px;
+	margin-top: 2px;
+	background-color: #ffcc33;
+	color: #FFF;
+	float: left;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.midNav {
+	width: 230px;
+	height: 26px;
+	padding: 4px;
+	float: left;
+	background-color: #e5e5e5;
+	border: 1px solid #ffcc33;
+	border-radius: 4px;
+}
+#searchInput {
+	width: 166px;
+	height: 22px;
+	border: 1px solid #d45420;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+#searchInfo {
+	width: 160px;
+	border-radius: 3px;
+	color: #666;
+}
+.searchSp {
+	float: left;
+	width: 170px;
+	height: 26px;
+}
+.searchbtnsp {
+	width: 60px;
+	height: 26px;
+	float: left;
+}
+#searchButton {
+	height: 26px;
+	width: 60px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	display: block;
+	border: 0 none;
+	cursor: pointer;
+	outline: none;
+	vertical-align: top;
+	background-color: #d45420;
+	color: #FFF;
+	font-weight: 400;
+}
+.searchNav, .mailIdNav, .contactNoNav, .cnctMailNav {
+	height: 44px;
+	width: 244px;
+	float: left;
+}
+.mailIdNav {
+	height: 30px;
+}
+.contactNoNav {
+	height: 34px;
+}
+.cnctMailNav {
+	height: 108px;
+}
+.midHeaderSite {
+	height: 108px;
+	width: 600px;
+	float: left;
+}
+.rightHeaderNav {
+	height: 108px;
+	width: 40px;
+	float: left;
+}
+/*----------------------------------banner-------------------*/
+
+.siteBannerNav {
+	height: 350px;
+	width: 1348px;
+	margin-top: 10px;
+	float: left;
+}
+.leftAlingSetNav, .leftsubMeBNav, .leftBdyNav, .leftSubBdyNav {
+	height: 350px;
+	width: 192px;
+	float: left;
+}
+.bannerNav {
+	width: 1151px;
+	height: 345px;
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+.leftBannerNav {
+	height: 345px;
+	width: 130px;
+	background: url(../images/pencilImgr.png) no-repeat;
+	float: left;
+}
+.midBannerWow {
+	height: 345px;
+	width: 920px;
+	float: left;
+	overflow: hidden;
+}
+.rightBannerNav {
+	height: 345px;
+	width: 100px;
+	float: left;
+}
+.upperBan {
+	height: 258px;
+	width: 100px;
+	float: left;
+}
+.lowerBan {
+	height: 87px;
+	width: 100px;
+	background: url(../images/abacus.png) no-repeat;
+	float: left;
+}
+/*--------------------------------------------------------submenuBanner-----------------------------*/
+.subMenBannerNav ,.subMenBannerNavFeedBack{
+	height: 290px;
+	width: 1348px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.subMenBannerNavFeedBack{
+	height:90px;
+}
+.subMenBannerNavPart{
+	height:102px;
+}
+.leftsubMeBNav {
+	height: 290px;
+}
+.subMenuSubpart {
+	height: 274px;
+	width: 244px;
+	float: left;
+	margin-left: 14px;
+	margin-right: 15px;
+	padding: 8px;
+	background-color: #d45420;
+	opacity: 0.9;
+}
+.imgFrmTitle {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 16px;
+	height: 30px;
+	width: 244px;
+	color: #fff;
+	overflow: hidden;
+}
+.imgFrameNav {
+	height: 110px;
+	width: 234px;
+	border: 5px solid #fff;
+}
+#abtIMg {
+	background-image: url(../images/aboutUs_img.jpg);
+}
+#facImg {
+	background-image: url(../images/facilities_img.jpg);
+}
+#objImg {
+	background-image: url(../images/ourObj_img.jpg);
+}
+#gallImg {
+	background-image: url(../images/photoGal_img.jpg);
+}
+.imgCont {
+	height: 90px;
+	width: 244px;
+	float: left;
+	text-align: justify;
+	font-size: 12px;
+	color: #FFF;
+	margin-top: 4px;
+}
+.btnSop {
+	height: 28px;
+	width: 244px;
+	float: left;
+	margin-top: 2px;
+}
+.buttonDes {
+	height: 22px;
+	width: 94px;
+	text-align: center;
+	color: #ffcc43;
+	padding-top: 6px;
+	box-shadow: 2px 1px 2px;
+	font-size:11px;
+	border-radius: 4px;
+	background-color: #464646;
+}
+.btnSop a {
+	text-decoration: none;
+}
+/*-----------------------------------------------body---------------------------------------------*/
+.siteBdyCont {
+	height: 860px;
+	width: 1348px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background: url(../images/shattered.png) repeat;
+}
+.siteBdyContContact{
+	width: 1148px;
+	margin: 0 auto;
+	padding-left:200px;
+}
+.upperBdyNav {
+	height: 200px;
+	width: 1348px;
+	float: left;
+}
+.leftBdyNav {
+	height: 200px;
+}
+.midBdyDescSite {
+	height: auto;
+	width: 1110px;
+	float: left;
+	background-color: #464646;
+	margin: 3px;
+	padding: 15px;
+	border: solid 1px #d45420;
+	overflow: hidden;
+}
+.midBdyDescTitle {
+	width: 1118px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+	height: 32px;
+	color: #ffcc33;
+	overflow: hidden;
+	float: left;
+}
+.midBdyDescNav {
+	height: 160px;
+	width: 1118px;
+	float: left;
+	color: #ffcc33;
+	text-align: justify;
+	font-size: 15px;
+}
+/*------------------------bdySub------------------------------------------------------*/
+
+.midSubBdyDescSite {
+	height: 290px;
+	width: 1338px;
+	float: left;
+	padding: 5px;
+}
+.leftSubBdyNav {
+	height: 348px;
+}
+.midSubBdyNav {
+	height: 340px;
+	width: 1130px;
+	background-color: #464646;
+	float: left;
+	border: solid 1px #d45420;
+	padding: 3px;
+	opacity: 0.9;
+}
+.leftSubBdy {
+	height: 340px;
+	width: 392px;
+	float: left;
+	margin-right: 10px;
+}
+.imgTitle, .imgPriTitle {
+	width: 400px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+	height: 40px;
+	color: #fff;
+	overflow: hidden;
+	float: left;
+}
+.lefttmidContSub {
+	height: 294px;
+	width: 400px;
+	background: #464646;
+	float: left;
+}
+#images {
+	width: 400px;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+}
+#images img {
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	opacity: 0;
+	transition: all linear 500ms;
+	-o-transition: all linear 500ms;
+	-moz-transition: all linear 500ms;
+	-webkit-transition: all linear 500ms;
+}
+#images img:target {
+	left: 0;
+	z-index: 9;
+	opacity: 1;
+}
+#images img:first-child {
+	left: 0;
+	opacity: 1;
+}
+#slider {
+	margin-top: 15px;
+	text-align: center;
+}
+#slider a {
+	text-decoration: none;
+	background: #faefcd;
+	border: 1px solid #f7c7b4;
+	padding: 4px 6px;
+	color: #222;
+}
+#slider a:hover {
+	background: #f7c7b4;
+}
+.rightSubBdy {
+	height: 340px;
+	width: 726px;
+	float: left;
+}
+.imgPriTitle {
+	width: 726px;
+}
+.rightmidContSub {
+	height: 292px;
+	width: 714px;
+	background: url(../images/bg.png) repeat;
+	margin: 0px 5px 5px 5px;
+	border: solid 1px #d45420;
+	float: left;
+}
+.pricInfoDesc {
+	height: 264px;
+	width: 476px;
+	margin: 10px;
+	float: left;
+	background: #d45420;
+	font-size: 14px;
+	color: #fff;
+	text-align: justify;
+	border: dotted 1px #ffcc33;
+	overflow: hidden;
+	padding: 4px;
+	overflow: hidden;
+	opacity: 0.9;
+}
+.pricImgDisp {
+	height: 272px;
+	width: 180px;
+	margin: 10px 0px 10px 10px;
+	border: dotted 1px #ffcc33;
+	float: left;
+	background: url(../images/prinicipalImg.jpg) no-repeat;
+}
+/*------------------------------------------footer----------------------------------*/
+.siteFooterNav {
+	height: 260px;
+	width: 1348px;
+	margin: 60px 0px 0px 0px;
+	float: left;
+}
+.upperFoterNav, .leftUperNa, .rightUperNa, .upMidCont, .rightUperNa {
+	height: 100px;
+	width: 1348px;
+	float: left;
+}
+.leftUperNa {
+	width: 520px;
+}
+.midUpperNavImg {
+	height: 140px;
+	width: 389px;
+	float: left;
+	background: url(../images/hug-club-clipimg.png) no-repeat;
+	z-index: 1000;
+	position: relative;
+}
+.rightUperNa {
+	width: 439px;
+}
+.subCont{
+	margin:30px;
+}
+.midContSite {
+	height: 200px;
+	width: 1348px;
+	float: left;
+	background: url(../images/footerBG.png) repeat;
+}
+.upMidCont {
+	height: 160px;
+}
+.midFooterCont {
+	height: 26px;
+	width: 1332px;
+	float: left;
+	background: #373636;
+	padding: 0px 0px 8px 16px;
+	opacity: 0.6;
+	box-shadow: 1px 2px 2px #ffcc33;
+}
+.foterUp {
+	height: 160px;
+	width: 220px;
+	float: left;
+}
+.fupNavsty {
+	height: 160px;
+	width: 200px;
+	float: left;
+}
+.midNavSty {
+	height: 50px;
+	width: 200px;
+	float: left;
+}
+.footerLogo {
+	height: 40px;
+	width: 200px;
+	float: left;
+}
+.ftLogoImg {
+	height: 40px;
+	width: 54px;
+	float: left;
+	background: url(../images/rfootercsLogo.png) no-repeat;
+}
+.ftLogoTitle {
+	height: 28px;
+	width: 146px;
+	float: left;
+	font-size: 14px;
+	padding-top: 12px;
+	color: #ffcc33;
+}
+ul.footerSiteDesc li{
+	list-style-type:none;
+}
