@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+.abtbodyContNav {
+	height: 650px;
+}
+.aboutBannerSiteNav {
+	height: 325px;
+	background: url(../webPageImg/about-us-banner.jpg) no-repeat;
+}
+.abtbannerTag {
+	height: 50px;
+	padding-top: 12px;
+}
+.abtbdyMidUp {
+	height: 250px;
+	background: url(../images/greyStrip.png) repeat;
+	border-bottom: 1px dashed #00baef;
+}
+.abtdivPartNav {
+	width: 1264px;
+	height: 226px;
+	margin-top: 10px;
+	background-color: #f4f3f3;
+	-moz-box-shadow: 0 0 5px #CCC;
+	-webkit-box-shadow: 0 0 5px #CCC;
+	box-shadow: 0 0 5px #CCC;
+	border: solid 2px #CCC;
+}
+.abtLeftPartNav {
+	float: left;
+	height: 136px;
+	width: 90px;
+	padding-top: 90px;
+	background-color: #00baef;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+.abtMidPartNav {
+	float: left;
+	height: 226px;
+	width: 150px;
+	background: url(../webPageImg/companyprofile.jpg) no-repeat;
+	margin-right: 3px;
+}
+.abtRigPartNav {
+	float: left;
+	color: #666;
+	font-size: 14px;
+	height: 209px;
+	width: 1005px;
+	display: inline-table;
+	text-align: justify;
+	padding: 8px;
+	overflow: hidden;
+}
+/*------------------------------------------------------------------------------------------------------*/
+.whyUsDes, .whychooDes {
+	font-size: 14px;
+	height: 40px;
+	float: left;
+	width: 289px;
+}
+.bulletDiv, .checkDiv {
+	height: 36px;
+	width: 10px;
+	padding-top: 4px;
+	float: left;
+}
+.bulletDivDes, .checkDivDes {
+	height: 40px;
+	width: 274px;
+	float: left;
+	font-weight: 300;
+	margin-left: 5px;
+	text-align: justify;
+}
+.iconDeCate, .iconCheckCate {
+	width: 10px;
+	height: 10px;
+	float: left;
+	background: url(../images/bullet-icon.png) no-repeat;
+}
+.whoWeRCont {
+	width: 780px;
+}
+.abtenquiryFrm {
+	width: 760px;
+	background-color: #eee;
+}
+.whyUsImg, .whyUsOpt {
+	width: 286px;
+	height: 318px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	background: url(../webPageImg/whyUsImg.png) no-repeat;
+}
+.whyUsOpt {
+	width: 440px;
+	background-image: none;
+}
+.fontStylWTC {
+	width: 430px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.whychooDes {
+	width: 440px;
+}
+.iconCheckCate {
+	width: 20px;
+	height: 17px;
+	margin-left: 6px;
+	background: url(../images/checkmark-bg.png) no-repeat;
+}
+.checkDivDes {
+	color: #666;
+	font-weight: 600;
+	font-size: 14px;
+	width: 370px;
+	margin-left: 22px;
+}
+/*------------------------------------------------contactUs---------------------------------------------------------------------------*/
+.contactBannerSiteNav {
+	height: 325px;
+	background: url(../webPageImg/contactus-banner.jpg) no-repeat;
+}
+.cntbannerTag {
+	height: 30px;
+	padding-top: 10px;
+}
+.cntbodyContNav {
+	height: 580px;
+	color: #666;
+}
+.cntbdyMidUp {
+	height: 650px;
+	width: 1048px;
+	margin-left: 100px;
+	border: none;
+}
+.leftcntbdyMidUp {
+	width: 460px;
+	height: 550px;
+	float: left;
+	padding: 20px;
+	margin-right: 30px;
+	background-color: #f9f9f9;
+	border: dashed 1px #cccccc;
+}
+.contactTitle {
+	text-align: left;
+	text-shadow: none;
+	width: 460px;
+}
+.inputTypesForm, .mapTypesForm {
+	height: 300px;
+	width: 450px;
+	float: left;
+	margin-top: 10px;
+}
+.mapTypesForm {
+	height: 270px;
+	width: 470px;
+	background-color: #33C;
+}
+.titleCntFrm, .msginputCntFrm, .btninputCntFrm {
+	text-align: left;
+	font-size: 16px;
+	width: 460px;
+	height: 30px;
+	float: left;
+}
+.msginputCntFrm {
+	height: 150px;
+}
+.btninputCntFrm {
+	height: 40px;
+	margin-top: 10px;
+}
+.inputCntFrm {
+	text-align: left;
+	font-size: 14px;
+	width: 460px;
+	height: 50px;
+	float: left;
+}
+.inpStyl {
+	background-color: #f9f9f9;
+	border: solid 1px #CCCCCC;
+	display: block;
+	cursor: pointer;
+	vertical-align: top;
+}
+.netypeDes {
+	border-radius: 5px;
+	height: 30px;
+	width: 350px;
+}
+.messageArea {
+	resize: none;
+	width: 410px;
+	height: 140px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	border: solid 1px #f9f9f9;
+	cursor: pointer;
+	vertical-align: top;
+	background-color: #f9f9f9;
+	border: solid 1px #CCCCCC;
+}
+.btnStylCnt {
+	resize: none;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 13px;
+	border: solid 1px #f9f9f9;
+	cursor: pointer;
+	vertical-align: top;
+	background-color: #e6e4e4;
+	border: solid 1px #CCCCCC;
+}
+.rightcntbdyMidUp {
+	width: 500px;
+	height: 550px;
+	float: left;
+}
+.siteAddInfo, .siteMapInfo {
+	width: 485px;
+	height: 200px;
+	background-color: #f9f9f9;
+	float: left;
+	border: solid 1px #e1e1e1;
+	padding-left: 15px;
+}
+.siteMapInfo {
+	margin-top: 40px;
+	height: 348px;
+}
+.contAddTitle {
+	text-align: left;
+	text-shadow: none;
+	width: 460px;
+	height: 30px;
+	color: #333;
+	font-weight: 500;
+	padding-left: 15px;
+}
+.siteAdTitle, .addCmpy {
+	color: #666;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	height: 30px;
+	width: 485px;
+	padding-left: 15px;
+}
+.addCmpy {
+	font-weight: normal;
+	font-size: 13px;
+	height: 86px;
+	width: 460px;
+}
+.navStyLoc {
+	width: 460px;
+	height: 20px;
+	font-size: 14px;
+	float: left;
+}
+/*------------------------------------------------windows Host---------------------------------------------------------------------------*/
+.hostingBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/window-Hostingr.jpg) no-repeat;
+}
+.windHstbannerTag {
+	height: 30px;
+	padding-top: 10px;
+	font-size: 18px;
+}
+.wehsbodyContNav{
+	height:auto;
+	color:#666;
+	background-color: #f9f9f9;
+}
+
+.sftDevbodyContNav{
+	color:#666;
+	height:auto;
+	background:url(../images/greyStrip.png) repeat;
+}
+.navPlanRec, .navPlanjava{
+	height:100px;
+	width:1230px;
+	float:left;
+	padding:0px 30px 0px 30px;
+}
+.navPlanjava{
+	height:200px;
+}
+.lefNavPlanRec, .lefjavaNavPlanRec{
+	width:830px;
+	height:100px;
+	float:left;
+	font-size:16px;
+	display:block;
+	overflow:hidden;
+}
+.lefjavaNavPlanRec{
+	width:1230px;
+	height:190px;
+}
+.rigNavPlanRec, .resrigNavPlanRec, .emailrigNavPlanRec{
+	width:400px;
+	height:100px;
+	background:url(../webPageImg/windowhospplan.gif) no-repeat;
+	float:left;
+}
+.resrigNavPlanRec{
+	background:url(../webPageImg/resellerhos.gif) no-repeat;
+}
+.titHos, .titHospl, .titjavaHospl, .titjavaHos, .descTitle1{
+	text-align:justify;
+	margin-top:10px;
+	width:830px;
+	height:30px;
+	float:left;
+	font-weight:600;
+	display:block;
+	overflow:hidden;
+}
+.titHospl, .titjavaHospl{
+	margin:0px;
+	height:25px;
+	font-weight:normal;
+}
+.titjavaHos{
+	width:1230px;
+}
+.titjavaHospl{
+	width:1230px;
+	display:block;
+	overflow:hidden;
+	height:140px;
+}
+.webhostPlanChart, .javawebhostPlanChart, .reswebhostPlanChart, .sftDevPlanChart,. webDevPlanChart, .sftManPlanChart, .sftConstDevPlanChart, .ecomDevPlanChart, .portWebDevPlanChart{
+	height:780px;
+	width:1230px;
+	float:left;
+	padding:0px 30px 0px 30px;
+}
+.sftDevPlanChart, .webDevPlanChart, .sftManPlanChart, .sftConstDevPlanChart, .ecomDevPlanChart, .portWebDevPlanChart
+{
+	background-color:#eee;
+	padding:20px 20px 20px 50px;
+	width:1230px;
+	height:1290px;
+}
+.webDevPlanChart{
+	height:500px;
+}
+.reswebhostPlanChart{
+	height:820px;
+}
+.sftManPlanChart{
+	height:320px;
+}
+.sftConstDevPlanChart{
+	height:440px;
+}
+.ecomDevPlanChart{
+	height:330px;
+}
+.portWebDevPlanChart{
+	height:460px;
+}
+.lefwebhostPlanChart, .javalefwebhostPlanChart, .reslefwebhostPlanChart{
+	height:780px;
+	width:210px;
+	float:left;
+}
+.reslefwebhostPlanChart{
+	height:820px;
+}
+.midwebhostPlanChart, .javamidwebhostPlanChart, .resmidwebhostPlanChart{
+	height:760px;
+	width:800px;
+	display:block;
+	overflow:hidden;
+	padding-top:20px;
+	float:left;
+}
+.resmidwebhostPlanChart{
+	height:820px;
+}
+.rigwebhostPlanChart, .javarigwebhostPlanChart, .resrigwebhostPlanChart{
+	height:780px;
+	width:210px;
+	float:left;
+}
+.resrigwebhostPlanChart{
+	height:820px;
+}
+/*--------------------------------------------------------------java hosting----------------------------------------------------*/
+.javaBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/javaHosting.jpg) no-repeat;
+}
+.resllerBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/resellerr.jpg) no-repeat;
+}
+.emailBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/emailHosting.jpg) no-repeat;
+}
+.emailrigNavPlanRec{
+	background:url(../webPageImg/cloud25.gif) no-repeat;
+}
+.softDevBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/softDev-banner.jpg) no-repeat;
+}
+.webDevBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/webDev.jpg) no-repeat;
+}
+.softMantBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/softwareMan.jpg) no-repeat;
+}
+.softConstBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/sftConsult.jpg) no-repeat;
+}
+.ecommerceBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/e-commerce.jpg) no-repeat;
+}
+.webPortalBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/webPortal.jpg) no-repeat;
+}
+.corBannerSiteNav{
+	height: 325px;
+	background:url(../webPageImg/corporateWeb.jpg) no-repeat;
+}
+.desc1, .desc2, .desc3, .desc4{
+	text-align:justify;
+	display:block;
+	overflow:hidden;
+	font-size:14px;
+	width:1190px;
+	height:80px;
+}
+.desc2{
+	height:40px;
+}
+.desc3{
+	height:200px;
+}
+.desc4{
+	height:250px;
+}
+.descTitle1{
+	width:1190px;
+	padding-top:6px;
+	color:#fff;
+	height:24px;
+	background-color:#00baef;
+	font-size:14px;
+}
+.descIndege, .descIndegeImg, .webIndegeImg{
+	width:1190px;
+	height:200px;
+	float:left;
+}
+.descIndegeImg, .webIndegeImg{
+	background:url(../images/database_banner.jpg) no-repeat;
+	width:371px;
+	height:200px;
+	float:left;
+}
+.webIndegeImg{
+	background:url(../images/web.jpg) no-repeat;
+	width:325px;
+}
